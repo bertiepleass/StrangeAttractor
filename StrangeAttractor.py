@@ -23,5 +23,6 @@ while i < n:
     i += 1
 
 
-plt.scatter(xy[0, :], xy[1, :], 0.0001)
+plt.scatter(xy[0, :], xy[1, :], 0.0001, c='black')
+plt.axis('off')
 plt.show()
